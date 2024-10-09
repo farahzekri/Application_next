@@ -11,7 +11,7 @@ const UserProfile = () => {
   }
 
   if (!session) {
-    return <p>Vous n'êtes pas connecté.</p>;
+    return <p>Vous n etes pas connecte.</p>;
   }
 
   const { name, email } = session.user;
