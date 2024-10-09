@@ -15,7 +15,7 @@ export default NextAuth({
     strategy: 'jwt',
   },
   callbacks: {
-    async redirect({ url, baseUrl }) {
+    async redirect({  baseUrl }) {
       console.log("Redirecting to:", baseUrl + "/user/edit-profile");
       return baseUrl + "/user/edit-profile";
     },

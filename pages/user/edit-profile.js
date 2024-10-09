@@ -94,7 +94,7 @@ const EditUserProfile = () => {
     <div className="d-flex justify-content-center align-items-center vh-100" style={{ background: 'linear-gradient(135deg, #6e8efb, #a777e3)' }}>
     <div className="card shadow-lg p-4" style={{ width: '600px', borderRadius: '12px' }}>
       <div className="card-body">
-        <h1 className="mb-4 text-center" style={{ color: '#6e8efb' }}>Modifier les informations de l'utilisateur</h1>
+        <h1 className="mb-4 text-center" style={{ color: '#6e8efb' }}>Modifier les informations de utilisateur</h1>
         {error && <p style={{ color: 'red' }}>{error}</p>} 
         <form onSubmit={handleSubmit}>
           <div className="row mb-3">
